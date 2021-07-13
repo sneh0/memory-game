@@ -1,0 +1,74 @@
+ #bg1{
+   background-color: mediumturquoise;
+ }
+ .header1{
+   text-align: center;
+   font-size: 40px;
+   font-family: cursive;
+   color: orangered;
+   text-decoration: underline;
+ }
+ 
+ .row{
+   text-align: center;
+
+ }
+ .container{
+   
+ }
+
+ .card{
+   display: inline-block;
+   width: 100px;
+   height: 120px;
+   border-radius: 5px;
+   margin: 1px;
+   background-color: lightgray; 
+   cursor: pointer;
+ }
+
+ .card.done{
+  cursor: default;
+ }
+
+ .card.done:hover{
+  cursor: default;
+  box-shadow: none;
+  border: none;
+ }
+
+ .card:hover{
+   border: 1px solid black;
+   box-sizing: border-box;
+   box-shadow:  1px 1px 1px grey;
+  }
+ /*background colors for all elements*/
+ 
+ .red{
+   background-color: red;
+ }
+ .blue{
+  background-color:blue;
+}
+ .yellow{
+  background-color: yellow;
+}
+ .lightgreen{
+  background-color: lightgreen;
+}
+ .pink{
+  background-color: pink;
+}
+ .grey{
+  background-color: grey;
+}
+ .orange{
+  background-color: orange;
+}
+ .lightblue{
+  background-color: lightblue;
+}
+
+ .color-hidden{
+  background-color: #eee;
+}
